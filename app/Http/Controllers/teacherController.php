@@ -13,7 +13,7 @@ class teacherController extends Controller
         $data = new Teacher;
         $data->name = $request->name;
         $data->subject = $request->subject;
-        $data->mobile = $request->contect;
+        $data->mobile = $request->contact;
         $data->email = $request->email;
         $data->save();
 

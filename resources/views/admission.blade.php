@@ -140,22 +140,22 @@
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="first_name">First Name</label>
-                                        <input class="w-100" type="text" name="first_name" id="first_name"> <br>
+                                        <input class="w-100" type="text" name="first_name" id="first_name"required> <br>
                                     </div>
                                     <div class="col">
                                         <label for="last_name">Last Name</label>
-                                        <input class="w-100" type="text" name="last_name" id="last_name"> <br>
+                                        <input class="w-100" type="text" name="last_name" id="last_name"required> <br>
                                     </div>
                                 </div>
 
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="father_name">Father Name</label>
-                                        <input class="w-100" type="text" name="father_name" id="father_name"> <br>
+                                        <input class="w-100" type="text" name="father_name" id="father_name"required> <br>
                                     </div>
                                     <div class="col">
                                         <label for="mother_name">Mother Name</label>
-                                        <input class="w-100" type="text" name="mother_name" id="mother_name"> <br>
+                                        <input class="w-100" type="text" name="mother_name" id="mother_name"required> <br>
 
                                     </div>
                                 </div>
@@ -163,29 +163,29 @@
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="contect_no">Mobile No.</label>
-                                        <input class="w-100" type="number" name="contact_no" id="contact_no"> <br>
+                                        <input class="w-100" type="number" name="contact_no" id="contact_no"required> <br>
 
                                     </div>
                                     <div class="col">
                                         <label for="email">E mail</label>
-                                        <input class="w-100" type="email" name="email" id="email"> <br>
+                                        <input class="w-100" type="email" name="email" id="email"required> <br>
                                     </div>
                                 </div>
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="birth_date">Date of Birth</label>
-                                        <input class="w-100" type="date" name="birth_date" id="birth_date"> <br>
+                                        <input class="w-100" type="date" name="birth_date" id="birth_date"required> <br>
                                     </div>
                                     <div class="col">
                                         <label for="address">Address </label>
-                                        <input class="w-100"type="text" name="address" id="address"> <br>
+                                        <input class="w-100"type="text" name="address" id="address"required> <br>
                                     </div>
                                 </div>
                         </div>
 
 
                         <div class=" d-flex justify-content-center w-100 m-3 ">
-                            <button type="submit" class="btn btn-success px-4   ">Submit</button>
+                            <button type="submit" class="btn btn-success px-4">Submit</button>
                         </div>
                     </div>
 

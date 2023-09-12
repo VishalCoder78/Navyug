@@ -13,12 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('teachers', function (Blueprint $table) {
+        Schema::create('questions', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 255);
-            $table->string('subject', 255);
-            $table->string('mobile');
-            $table->string('email', 255);
+            $table->string('question');
             $table->timestamps();
 
         });

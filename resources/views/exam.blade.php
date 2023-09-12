@@ -149,7 +149,7 @@
                                 </div>
                                 <div class="col mb-5">
                                     <label for="subject">Subject</label>
-                                    <input class="w-100" type="text" name="subject" id="subject">
+                                    <input class="w-100" type="text" name="subject" id="subject" required>
                                     <br>
                                 </div>
                             </div>
@@ -157,11 +157,11 @@
                             <div class="row g-2 mb-5">
                                 <div class="col">
                                     <label for="f_mark">Full Marks</label>
-                                    <input class="w-100" type="text" name="f_mark" id="f_mark"> <br>
+                                    <input class="w-100" type="text" name="f_mark" id="f_mark" required> <br>
                                 </div>
                                 <div class="col">
                                     <label for="p_mark">Passing Marks</label>
-                                    <input class="w-100" type="text" name="p_mark" id="p_mark"> <br>
+                                    <input class="w-100" type="text" name="p_mark" id="p_mark"required> <br>
 
                                 </div>
                             </div>
@@ -169,11 +169,11 @@
                             <div class="row g-2 mb-5">
                                 <div class="col">
                                     <label for="exam_from">Exam From*</label>
-                                    <input class="w-100" type="datetime-local" name="exam_from" id="exam_from"> <br>
+                                    <input class="w-100" type="datetime-local" name="exam_from" id="exam_from" required> <br>
                                 </div>
                                 <div class="col">
                                     <label for="exam_to">Exam To*</label>
-                                    <input class="w-100" type="datetime-local" name="exam_to" id="exam_to"> <br>
+                                    <input class="w-100" type="datetime-local" name="exam_to" id="exam_to" required> <br>
 
                                 </div>
                             </div>
@@ -259,7 +259,7 @@
                         </h5>
                         <div class="form_container">
                             <form action="">
-                                <input type="email" placeholder="Enter your email">
+                                <input type="email" placeholder="Enter your email" required>
                                 <button type="submit">
                                     Subscribe
                                 </button>

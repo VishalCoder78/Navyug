@@ -141,24 +141,24 @@
                                 <div class="col">
                                     <label for="name">Name</label>
                                     <input type="text" name="name" id="name" class="form-control"
-                                        placeholder="Name">
+                                        placeholder="Name" required>
                                 </div>
                                 <div class="col">
                                     <label for="subject">Subject</label>
                                     <input type="text" name="subject" id="subject" class="form-control"
-                                        placeholder="Subject">
+                                        placeholder="Subject" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
                                     <label for="email">E mail</label>
                                     <input type="email" name="email" id="email" class="form-control"
-                                        placeholder="email">
+                                        placeholder="email"required>
                                 </div>
                                 <div class="col">
                                     <label for="contect">Mobile No.</label>
-                                    <input type="number" name="contect" id="contect" class="form-control"
-                                        placeholder="Phone no.">
+                                    <input type="number" name="mobile" id="mobile" class="form-control"
+                                        placeholder="Phone no."required>
                                 </div>
                             </div>
                             <div class="py-3 d-flex justify-content-center">

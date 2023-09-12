@@ -13,12 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('teachers', function (Blueprint $table) {
+        Schema::create('exampappers', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 255);
-            $table->string('subject', 255);
-            $table->string('mobile');
-            $table->string('email', 255);
+            $table->string('subject');
+            $table->string('full_marks');
+            $table->string('passing_marks');
             $table->timestamps();
 
         });

@@ -185,7 +185,7 @@
                         </h5>
                         <div class="form_container">
                             <form action="">
-                                <input type="email" placeholder="Enter your email">
+                                <input type="email" placeholder="Enter your email" required>
                                 <button type="submit">
                                     Subscribe
                                 </button>

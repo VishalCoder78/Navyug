@@ -112,16 +112,16 @@
                         <div class="contact_form-container">
                             <div>
                                 <div>
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Name" required>
                                 </div>
                                 <div>
-                                    <input type="email" placeholder="Email">
+                                    <input type="email" placeholder="Email" required>
                                 </div>
                                 <div>
-                                    <input type="text" placeholder="Phone Number">
+                                    <input type="text" placeholder="Phone Number" required>
                                 </div>
                                 <div class="mt-5">
-                                    <input type="text" placeholder="Message">
+                                    <input type="text" placeholder="Message" required>
                                 </div>
                                 <div class="mt-5">
                                     <button type="submit">

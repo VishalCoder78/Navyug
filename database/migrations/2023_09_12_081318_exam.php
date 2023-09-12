@@ -13,12 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('teachers', function (Blueprint $table) {
+        Schema::create('exams', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 255);
-            $table->string('subject', 255);
-            $table->string('mobile');
-            $table->string('email', 255);
+            $table->string('exam_type');
+            $table->string('exam_from');
+            $table->string('exam_to');
             $table->timestamps();
 
         });
